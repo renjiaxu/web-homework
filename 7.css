@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2019-06-02 11:29:32
 * @Last Modified by:   dell
-* @Last Modified time: 2019-06-10 10:18:41
+* @Last Modified time: 2019-06-10 22:51:46
 */
 
 *{
@@ -30,9 +30,13 @@ input{
 	height: 32px;
 	background-color: #f4f4f4;
 }
+.header-c{
+	width: 1200px;
+	margin:0 auto ;
+}
 .left{
 	height: 32px;
-	margin-left: 180px;
+	/* margin-left: 180px; */
 	float: left;
 	line-height: 32px;
 	font-size: 13px;
@@ -46,7 +50,7 @@ input{
 }
 .right{
 	line-height: 32px;
-	margin-right:160px;
+	/* margin-right:160px; */
 	font-size: 13px;
 	float: right;
 }
@@ -120,18 +124,19 @@ input{
 	width: 217px;
 	height: 45px;
 	background-color: #fff;
-	vertical-align: middle;
 	font-size: 20px;
 	margin-bottom: 15px;
 	float: left;
 	position: relative;
 }
 .sort img{
-	margin: 10px 40px 0;	
+	margin:10px 40px 0;
+	/* margin-right:40px ;	 */
+	/* vertical-align:middle; */
 }
-.sort span{
+ .sort span{
 	position: absolute;
-	top: 10px;
+	top: 10px; 
 }
 .fenlei{
 	height: 510px;

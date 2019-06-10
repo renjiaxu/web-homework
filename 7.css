@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2019-06-02 11:29:32
 * @Last Modified by:   dell
-* @Last Modified time: 2019-06-03 20:40:32
+* @Last Modified time: 2019-06-09 20:42:58
 */
 
 *{
@@ -207,18 +207,15 @@ input{
 }
 .abb{
 	margin-top: 25px;
-	margin-left: 400px;
+	text-align: center;
 }
-.abb li{
-	float: left;
-	margin-right:10px ;	
-}
-.abb li a{
+.abb a{
 	color: #9e9e9e;
+	margin-right:10px ;		
 }
-.bottom p{
-	margin-left: 400px;
-	margin-top: 60px;
+.cdd{
+	text-align: center;
+	margin-top: 20px;
 	color:#9e9e9e ;
 	display: block;
 }

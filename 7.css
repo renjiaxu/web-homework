@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2019-06-02 11:29:32
 * @Last Modified by:   dell
-* @Last Modified time: 2019-06-09 20:42:58
+* @Last Modified time: 2019-06-10 10:18:41
 */
 
 *{
@@ -14,6 +14,7 @@ ul,li,ol{
 }
 a{
 	text-decoration: none;
+	color: #000;
 }
 input{
 	outline:none;
@@ -111,6 +112,9 @@ input{
 }
 .body p{
 	line-height: 70px;
+}
+.body p a+a:before{
+	content: '> ';
 }
 .sort{
 	width: 217px;
@@ -215,7 +219,7 @@ input{
 }
 .cdd{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 15px;
 	color:#9e9e9e ;
 	display: block;
 }
